@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*根元素选择器 一般不用 返回的是html
+
+:root{
+	border: 1px solid red;
+}
+
+*/
+/*
+ul > li:first-child{
+	color:red;
+}
+
+ul > li:last-child{
+	color:red;
+}
+
+ul > li:only-child{
+	color:red;
+}
+
+*/
+/* 第二个变红
+ul > li:nth-child(2){
+	color:red;
+}
+*/
+/* 倒数第二个
+ul > li:nth-last-child(2){
+	color:red;
+}
+*/
+
+input:enabled{
+	border: 1px solid red;
+}
+input:disabled{
+	border: 1px solid blue;
+}
+

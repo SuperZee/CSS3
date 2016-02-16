@@ -82,3 +82,13 @@ p + b{
  p ~ b{
 
  }
+
+ /* 伪元素选择器*/
+ /* 首行变红 */
+ p::first-line{
+ 	color: red;
+ }
+/* 第一个字母 */
+ ::first-letter{
+ 	color: blue
+ }
