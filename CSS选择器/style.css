@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*
+	1.通用选择器 一般不推荐使用  因为还匹配了head body html标签
+
+* {
+	border: 1px solid red;
+}
+
+*/
+
+/*
+	2.元素选择器
+
+p {
+	color: red;
+}
+
+*/
+/*
+	3.ID选择器
+#abc{
+	font-size: 35px;
+}
+*/
+/*
+	4.类选择器
+	.abcd{
+		color: blue;
+	}
+	
+*/
+/* 只能b中使用abcd样式
+	b.abcd{
+		color:orange;
+	}
+*/
+
+/*
+.def{
+	font-size: 30px;
+}
+*/
+
+/*
+	5.属性选择器
+	*/
+	/*
+	[href] {
+		color: red
+	}
+*/
+ [type="password"]{
+ 	border: 1px solid red;
+ }
+/* href开头^=是http的  还有结尾的$= 还有包含指定的字符*=  
+	 属性值具有多个值时匹配的值~="def"   模糊|="en"  */
+ [href^="http"]{
+ 	font-color:blue;
+ }
+
+
+ /* 6复合选择器 */
+
+ p,b,a{
+ 	/*color: red;*/
+ }
+	/*  后代选择器 不分第几层 */
+ p b{
+
+ }
+ /* 子选择器 只能是第一层 孙子辈就不可以了*/
+ p > b{
+
+ }
+/*	相邻兄弟选择器*/
+p + b{
+
+}
+
+ /* 普通兄弟选择器*/
+ p ~ b{
+
+ }
