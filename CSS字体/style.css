@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+	/*font-size: 50px;*/
+	/*font-variant: small-caps;*/
+}
+@font-face{
+	font-family: 'abc';
+	src:url('BrushScriptStd.otf');
+}
+p{
+	/*font-size: 50px;*/
+	/*font-size: xx-small;*/
+	/*font-size: xx-large;*/
+	/*font-size: smaller;*/
+	/*font-size: normal;*/
+
+	/*font-weight: bold;*/
+	/*font-family: "宋体"*/
+	/*font:50px 宋体 ;*/
+
+	font-family: abc;
+
+}
