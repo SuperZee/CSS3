@@ -1,0 +1,6 @@
+@charset "utf-8";
+@import "b.css";
+p{
+	color: blue;
+	font-size: 45px;
+}
