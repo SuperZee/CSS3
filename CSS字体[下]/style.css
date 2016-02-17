@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+p{
+	font-size: 30px;
+
+	/*text-decoration: underline;*/
+	/*text-decoration: overline;*/
+	/*text-decoration: line-through; 删除线*/
+
+	/*text-transform: uppercase;转换成大写*/
+	/*text-transform: lowercase;转换成小写*/
+	/*text-transform: capitalize;首字母大写 必须有空格*/
+
+	/*text-shadow:5px 5px 3px black; 水平偏移 垂直偏移 模糊值 颜色*/
+
+	/*text-align: left; 默认左对齐*/
+	/*text-align: right;右对齐*/
+	/*text-align: justify;两端对齐*/
+
+	/*white-space: nowrap; 空白被压缩 文本不换行*/
+	/*white-space: pre;空白被压缩 遇到换行符换行*/
+	/*while-space:pre-line;空白被压缩 遇到换行符换行 文本排满换行*/
+	/*white-space: pre-wrap;空白被保留 遇到换行符换行 文本排满换行*/
+
+	/*word-spacing: 10px 英文单词间距*/
+	/*letter-spacing: 20px;间距*/
+
+	/*line-height: 100px;行高*/
+
+	/*word-wrap:break-word; 让过长的英文单词断开*/
+	/*text-indent: 20px; 设置文本首行的缩减*/
+}
+
+a{
+	text-decoration: none;
+}
